@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(85, 45, 112);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    height: 100vh;
+}
+
+.conteiner-gerador-senha {
+    background-color: rgb(66, 38, 110);
+    min-width: 400px;
+    box-shadow: 2px 3px 10px black;
+    border-radius: 10px;
+}
+
+.cabecalho-gerador-senha {
+    padding: 20px;
+}
+
+.senha {
+    background-color: rgb(59, 29, 87);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    overflow: hidden;
+    padding: 1px;
+}
+
+.senha span {
+    padding-left: 10px;
+    color: rgb(236, 204, 20);
+}
+
+.senha button {
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 4px;
+    opacity: 0;
+    margin-right: 10px;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.senha:hover button {
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+
+.corpo-gerador-senha{
+    padding: 0 20px 20px;
+}
+
+.form{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.gerar-senha{
+    background-color: rgb(236, 204, 20);
+    border: none;
+    color: rgb(66, 38, 110);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
